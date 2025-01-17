@@ -2,3 +2,8 @@ llama-cpp-python
 gradio
 requests
 python-dotenv
+fire
+fschat
+accelerate
+autoawq
+vllm
