@@ -18,35 +18,35 @@ DEFAULT_JSON = {
   "items": {
     "type": "object",
     "properties": {
-      "Стеллаж": {
+      "Shelf": {
         "type": "integer",
-        "description": "Стеллаж, на котором находится книга."
+        "description": "The shelf where the book is located."
       },
-      "Полка": {
+      "Level": {
         "type": "integer",
-        "description": "Полка, на которой находится книга."
+        "description": "The level of the shelf where the book is located."
       },
-      "Автор": {
+      "Author": {
         "type": "string",
-        "description": "Автор книги."
+        "description": "The author of the book."
       },
-      "Название": {
+      "Title": {
         "type": "string",
-        "description": "Название книги"
+        "description": "The title of the book."
       }
     },
     "required": [
-      "Стеллаж",
-      "Полка",
-      "Автор",
-      "Название"
+      "Shelf",
+      "Level",
+      "Author",
+      "Title"
     ]
   },
   "required": ["items"]
 }
 
 EXAMPLES = [
-    "Первая книга, которую я прочитал, была написана Джорджем Оруэллом и называлась 1984.",
-    "Второй по счету книгой в моей коллекции является Мастер и Маргарита Михаила Булгакова.",
-    "первый стелаж первая полка книга автора иванов иван иванович название мое путешествие по архиву следующая книга автора петрова петра петровича название новое путешествие по архиву вторая полка книга автора сидоров сидор сидорович название мое путешествие по стелажам следующая книга автора владимир владимирович владимиров название как же достали эти стелажи второй стелаж первая полка книга автора усталов устал усталович название как я здесь оказался следующая книга автора убегаев убегай убегаевич название нахуй это вон туда"
+    "The first book I read was written by George Orwell and was titled 1984."
+    "The second book in my collection is The Master and Margarita by Mikhail Bulgakov."
+    "The first shelf, first level, contains a book by Ivanov Ivan Ivanovich titled My Journey Through the Archive. The next book is by Petrov Petr Petrovich titled A New Journey Through the Archive. On the second level, there is a book by Sidorov Sidor Sidorovich titled My Journey Through the Shelves. The next book is by Vladimir Vladimirovich Vladimirov titled How These Shelves Are Driving Me Crazy. On the second shelf, first level, there is a book by Ustalov Ustal Ustalovich titled How Did I End Up Here?. The next book is by Ubegaev Ubegai Ubegaevich titled Screw This, Put It Over There."
 ]
